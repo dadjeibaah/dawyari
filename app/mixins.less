@@ -1,0 +1,25 @@
+section.outer-card {
+  margin: 1rem;
+  .card {
+    .card-header {
+      background: white;
+      padding: 1rem;
+      border-bottom: 1px solid #c3c3c3;
+      font-weight:600;
+      color:darken(@sidebar-text-color, 20%);
+    }
+    .card-content {
+      background: white;
+      padding: 0.5rem;
+      & .thumbnail{
+        margin:1rem;
+        display: block;
+        cursor:pointer;
+        img{
+          cursor:pointer;
+        }
+      }
+    }
+  }
+}
+

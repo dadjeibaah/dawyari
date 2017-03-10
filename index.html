@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="dist/photon/css/photon.min.css"/>
+    <link rel="stylesheet" href="dist/styles.css">
+</head>
+<body ng-app="dawyari">
+<div class="window">
+    <div class="window-content">
+        <div class="pane-group">
+            <div class="pane-sm sidebar" ng-controller="SideNavCtrl">
+                <div class="navbar-brand col-md-12 text-center">
+                    Dawyari
+                </div>
+            </div>
+            <div class="pane" ng-view></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="dist/internal.js"></script>
+<script src="dist/build.js"></script>
+<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>

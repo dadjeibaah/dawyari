@@ -1,0 +1,26 @@
+<header id="nav" class="row">
+    <div id="title" class="col-md-12 text-center">
+        Add Video Entry
+    </div>
+</header>
+<section id="add-video" class="outer-card row" ng-controller="AddVideoCtrl">
+    <div class="col-md-12 card">
+        <header class="card-header">
+            Upload Video
+        </header>
+        <div class="card-content text-center">
+            <div class="upload-message">
+                <i class="fa fa-upload fa-4x"></i>
+                <h3><a plupload="fileUpload.url">
+                    Drag video here to upload
+                </a></h3>
+            </div>
+            <div ng-click="addVideoDiary()" class="start-screen-recording-mid recording-style-blue">
+                <div>
+                    <div class="rec-dot"></div>
+                    <span>Start</span></div>
+            </div>
+            <script src="//api.apowersoft.com/screen-recorder?lang=en" defer></script>
+        </div>
+    </div>
+</section>
